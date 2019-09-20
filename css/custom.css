@@ -11,6 +11,15 @@ body {
   border-radius: 5px;
 }
 
+.blog-masonry ul {
+  /* display:inline-flex; */
+  /* align-items: center; */
+}
+
+.blog-masonry li {
+  /* display: list-item; */
+}
+
 .blog-filters {
  margin-top: 50px;
 }
