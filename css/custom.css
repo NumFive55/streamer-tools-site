@@ -79,8 +79,11 @@ i {
     color: #333333;
 }
 
-.post-meta li {
+.post-meta {
     display: inline-block;
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
 }
 
 .category {
@@ -167,6 +170,17 @@ padding: 0px 10px 0px 50px;
   }
 }
 
+@media screen and (max-width: 375px) {
+  .blog-masonry-item {
+    width: 100%;
+  }
+
+  .nav-container {
+    margin-bottom: 50px;
+  }
+
+}
+
 .discordButton {
   padding: 20px;
   background-color: #5FB9BF;
@@ -176,6 +190,7 @@ padding: 0px 10px 0px 50px;
 
 #navbar a:hover {
   background-color: #2E5E61;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .discordButton img {
